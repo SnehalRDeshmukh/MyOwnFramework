@@ -11,10 +11,8 @@ public class LoginPage {
 
 	public LoginPage(WebDriver ldriver) {
 		driver = ldriver;
-		//PageFactory.initElements(ldriver,this);
 
 	}
-	
 
 	@FindBy(name = "username")
 	WebElement uname;
