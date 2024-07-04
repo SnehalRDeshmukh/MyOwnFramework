@@ -15,6 +15,7 @@ import org.openqa.selenium.WebDriver;
 public class Helper {
 	
 	// screenshot, alerts, frames,window handling, java script executor,sync issue.
+	
 
 	public static String CaptureScreenshot(WebDriver driver) {
 		
@@ -40,6 +41,4 @@ public class Helper {
 		
 		return df.format(currdate);
 	}
-
-
 }
