@@ -3,15 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.learnatomation.testcases.LoginCRM">
+      <class name="com.learnatomation.testcases.RegistrationFB">
         <methods>
+          <include name="RegisterToFB"/>
           <include name="setupSuite"/>
-          <include name="loginApp"/>
           <include name="setUp"/>
           <include name="teardown"/>
           <include name="teardownMethod"/>
         </methods>
-      </class> <!-- com.learnatomation.testcases.LoginCRM -->
+      </class> <!-- com.learnatomation.testcases.RegistrationFB -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
