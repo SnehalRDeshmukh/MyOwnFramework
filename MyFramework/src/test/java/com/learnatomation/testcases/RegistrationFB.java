@@ -10,8 +10,12 @@ public class RegistrationFB extends BaseClass {
   @Test
   public void RegisterToFB() {
 	  
+	  logger = report.createTest("Registration started");
+	  
 	  FacebookRegiPage fr = PageFactory.initElements(driver, FacebookRegiPage.class);
 	  
 	  fr.RegistrationFaceBook("snehal@gmail.com", "snehal123", "snehal", "kokate");
+	  
+	  logger.pass("Registration successfull.");
   }
 }
